@@ -14,7 +14,7 @@ spec:
     metadata:
       namespace: app
       labels:
-        app: ng
+        app: nginx
     spec:
       containers:
       - name: stacksimpflipynginx
