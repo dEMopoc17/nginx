@@ -6,7 +6,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: nginx
@@ -14,7 +14,7 @@ spec:
     metadata:
       namespace: app
       labels:
-        app: ng
+        app: nginx
     spec:
       containers:
       - name: stacksimpflipynginx
