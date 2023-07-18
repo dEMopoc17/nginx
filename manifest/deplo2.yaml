@@ -15,7 +15,7 @@ spec:
       namespace: app
       labels:
         app: nginx
-    spec
+    spec: 
       containers:
       - name: stacksimpflipynginx
         image: stacksimplify/kubenginx:1.0.0
