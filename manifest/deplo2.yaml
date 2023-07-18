@@ -6,7 +6,7 @@ metadata:
   labels:
     app: nginx
 spec:
-  replicas: 0
+  replicas: 1
   selector:
     matchLabels:
       app: nginx
@@ -15,7 +15,7 @@ spec:
       namespace: app
       labels:
         app: nginx
-    spec:
+    spec
       containers:
       - name: stacksimpflipynginx
         image: stacksimplify/kubenginx:1.0.0
