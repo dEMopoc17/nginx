@@ -14,7 +14,7 @@ spec:
     metadata:
       namespace: app
       labels:
-        app: ngi
+        app: nginx
     spec:
       containers:
       - name: nginx
