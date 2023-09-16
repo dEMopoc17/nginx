@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: stacksimpflipynginx
-        image: stacksimplif/kubenginx:1.0.0
+        image: stacksimplify/kubenginx:1.0.0
         ports:
         - containerPort: 80
