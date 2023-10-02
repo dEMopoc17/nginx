@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: stacksimpflipynginx
+  name: stacksimp
   namespace: app
   labels:
     app: nginx
